@@ -16,7 +16,7 @@ class CalculatorTestCase(unittest.TestCase):
 
     def test_sub(self):
         result = self.calculator.sub(5, 3)
-        self.assertEqual(result, -2, msg="Deu ruim")
+        self.assertEqual(result, 2, msg="Deu ruim")
 
     def test_mut(self):
         result = self.calculator.mut(4, 3)
